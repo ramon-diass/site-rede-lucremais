@@ -10,3 +10,10 @@ btn.addEventListener('click', ()=>{
     menuMobile.classList.toggle('abrir')
     body.classList.toggle('parar')
 })
+
+menuMobile.addEventListener('click', ()=>{
+    line1.classList.toggle('ativo1')
+    line2.classList.toggle('ativo2')
+    menuMobile.classList.toggle('abrir')
+    body.classList.toggle('parar')
+})
