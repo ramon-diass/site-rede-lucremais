@@ -1,0 +1,519 @@
+/* Estilos gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #e3e3e3;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+header .btn-contato button, .hero-site button, .parallax button{
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-transform: initial;
+    cursor: pointer;
+    transition: .5s;
+}
+
+header .btn-contato button:hover, .hero-site button:hover, .parallax button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* Estilo do cabeçalho */
+header{
+    width: 100%;
+    padding: 10px 0;
+    position: fixed; /* Essa linha e as duas linhas abixo são para deixar o cabeçalho transparente e fixo no topo */
+    top: 0;
+    left: 0;
+    transition: .4s; /*Usado para a transformação do menu quando há rolagem da tela */
+    z-index: 5; /* Usadp para o menu ficar na frente de todas as seções */
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 160px;
+}
+
+header .logo img.logo-preta{
+    display: none;
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: inline-block; /* Esse display serve para habilitar o scale abaixo */
+    transition: 0.2s;
+}
+
+header .menu-desktop nav ul li a:hover{
+    transform: scale(1.05);
+    color: #FF7F27;
+}
+
+header .btn-contato button{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* Estilo do menu quando não está no topo */
+header.rolar{
+    background-color: #fff;
+    /* padding: 20px 0; */
+    box-shadow: 0 0 8px #00000066;
+}
+
+header.rolar .menu-desktop nav ul li a{
+    color: #000;
+}
+
+header.rolar .menu-desktop nav ul li a:hover{
+    color: #FF7F27;
+}
+
+header.rolar .btn-contato button{
+    color: #000;
+    border: 1px solid #000;
+}
+
+header.rolar .btn-contato button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+header.rolar .logo .logo-branca{
+    display: none;
+}
+
+header.rolar .logo .logo-preta{
+    display: block;
+}
+
+/* Estilo do botão mobile */
+header .btn-menu-mob{
+    display: none;
+    position: relative; /* position necessário para habilitar o z-index */
+    z-index: 7; /* Necessário para deixar o botão sempre na frente e acessível */
+}
+
+header .btn-menu-mob div{
+    background-color: #fff;
+    height: 3px;
+    margin: 10px 0;
+    transition: .2s;
+}
+
+header .btn-menu-mob .line-menu-mob-1{
+    width: 30px;
+}
+
+header .btn-menu-mob .line-menu-mob-2{
+    width: 20px;
+}
+
+header.rolar .btn-menu-mob div{
+    background-color: #000;
+}
+
+header .btn-menu-mob .line-menu-mob-1.ativo1{
+    transform: rotate(45deg) translate(31%);
+    background-color: #fff; /* Necessário para o "x" aparecer quando a página é rolada para baixo */
+}
+
+header .btn-menu-mob .line-menu-mob-2.ativo2{
+    width: 30px;
+    transform: rotate(-45deg) translate(30%);
+    background-color: #fff;
+}
+
+body.parar{
+    overflow: hidden; /* Faz com que a página não consiga rolar quando o menu mobile está aberto, com a página rolando tava bugando a janela do menu */
+}
+
+/* Estilo do menu mobile */
+    header .menu-mobile{
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: hidden; /* Esconde o que estiver vazando */
+        transition: .4s;
+    }
+
+    header .menu-mobile nav ul{
+        list-style-type: none;
+    }
+
+    header .menu-mobile nav{
+        width: 100vw;
+    }
+
+    header .menu-mobile nav a{
+        font-size: 24px;
+        text-decoration: none;
+        color: #fff;
+        padding: 20px 0; /* O padding não consegue formatar um link na sua forma padrão, para conseguir formatar é necessário deixar o display dos links como block */
+        display: block;
+        transition: .4s;
+    }
+
+    header .menu-mobile nav a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+
+    header .menu-mobile.abrir{
+        width: 100%;
+        height: 100vh;
+    }
+
+
+/* Estilo banner inicial */
+.hero-site{
+    height: 95vh;
+    background-color: #ff7d27a1;
+}
+
+.hero-site .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.hero-site .txt-hero h1 span{
+    display: flex;
+    font-weight: 800;
+}
+
+.hero-site .txt-hero p{
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+.hero-site .txt-hero p span{
+    display: flex;
+}
+
+.hero-site button{
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}
+
+/* Estilo da seção empresa */
+.empresa{
+    padding: 40px 0;
+}
+
+.empresa .txt-empresa{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.empresa .txt-empresa h3{
+    font-weight: 300;
+}
+
+.empresa .txt-empresa h3 span{
+    color: #FF7F27;
+    font-weight: 600;
+}
+
+.empresa .txt-box h2{
+    color: #fff;
+    font-size: 2em;
+    padding-top: 20px
+}
+
+.empresa .instru-box{
+    background-image: url(../imagens/fundo.png);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.empresa .instru-box img{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.611);
+}
+
+.empresa .info-box{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.empresa .caixa-box{
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #00000090;
+}
+
+.empresa .info-box p span{
+    display: flex;
+}
+
+/* Estilo dos serviços */
+.servicos{
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.servicos h2{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.servicos .itens-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 60px;
+}
+
+.servicos .txt-itens h3{
+    font-size: 2.3em;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.servicos .txt-itens h3 span{
+    font-weight: 700;
+    color: #FF7F27;
+}
+
+.servicos .txt-itens p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.servicos .txt-itens p i{
+    color: #FF7F27;
+}
+
+.servicos .txt-itens p span{
+    font-weight: 700;
+}
+
+.servicos .itens-container .img-itens img{
+    max-width: 480px;
+}
+
+/* Estilo do parallax */
+.parallax{
+    height: 400px;
+    background-image: url(../imagens/hotel-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Aqui é onde faz o efeito parallax, que a imagem fica fixa mesmo rolando a tela */
+    position: relative; /* Esse position serve para habilitar o parallax que vai ser editado abaixo */
+    color: #fff;
+    text-align: center;
+}
+
+.parallax .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000b9;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* O z-index só funciona se o position não for static (que é o padrão) */
+}
+
+.parallax .interface{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+}
+
+.parallax h3{
+    font-size: 3em;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.parallax h3 span{
+    display: block;
+    font-weight: 200;
+}
+
+.parallax button{
+    margin-top: 50px;
+    width: 220px;
+    height: 60px;
+}
+
+/* Estilo da seção nossos benefícios */
+.beneficios{
+    padding: 80px 0;
+}
+
+.txt-beneficios, .campo-bnf{
+    display: inline-block;
+    margin-right: -4px; /* Esse -4px é algum bug do inline-block que adiciona 4px nas laterais, sem ele os blocos não ficam lado a lado */
+    vertical-align: top;
+}
+
+.txt-beneficios{
+    width: 40%;
+}
+
+.campo-bnf{
+    width: 60%;
+}
+
+.beneficios .txt-beneficios{ /* Faz com que o como funciona acompanhe a tela */
+    position: sticky;
+    top: 40%; /* Posição onde o como funciona vai acompanhar a tela, quanto menor mais em cima fica */
+    padding-bottom: 32px;  /* Para ajustar o final onde o como funciona para, para ajustar com o último box */
+}
+
+.beneficios .txt-beneficios h3{
+    font-size: 4em;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+.beneficios .txt-beneficios h3 span{
+    display: block;
+    font-weight: 700;
+    color: #FF7F27;
+}
+
+.campo-bnf .bnf-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.campo-bnf .bnf-box img{
+    max-width: 100px;
+}
+
+.campo-bnf .bnf-box h4{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.campo-bnf .bnf-box h4 span{
+    font-weight: 700;
+    color: #FF7F27;
+}
+
+.campo-bnf .bnf-box p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.campo-bnf .bnf-box p span{
+    font-weight: 700;
+}
+
+.campo-bnf .bnf-box p i{
+    color: #FF7F27;
+}
+
+/* Estilo do rodapé */
+footer{
+    background-color: #FF7F27;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+}
+
+footer .btn-footer button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .4s;
+}
+
+footer .btn-footer button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+footer .links-footer{
+    margin: 30px 0 30px 20px;
+}
+
+footer .links-footer a{
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+footer .direitos{
+    border-top: 3px solid #fff;
+}
+
+footer .direitos p{
+    padding: 20px 0 0 17px;
+}
