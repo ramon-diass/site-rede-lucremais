@@ -117,8 +117,12 @@
 }
 
 @media screen and (max-width: 992px) {
+    header{
+        padding: 20px 0;
+    }
+
     header .logo img{
-        width: 110px;
+        width: 200px;
     }
 
     header .menu-desktop nav ul li{
@@ -143,22 +147,23 @@
     }
 
     .hero-site .txt-hero p{
-        font-size: 12px;
+        font-size: 16px;
         margin: 20px 0;
     }
 
     .hero-site button{
-        width: 110px;
-        height: 30px;
-        font-size: 12px;
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
     }
 
     .servicos h2{
+        font-size: 2.5em;
         margin-bottom: 30px;
     }
 
     .servicos .txt-itens h3{
-        font-size: 1.8em;
+        font-size: 2em;
         line-height: 30px;
     }
 
@@ -202,12 +207,12 @@
     }
 
     .campo-bnf .bnf-box p{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 15px;
     }
 
     .campo-bnf .bnf-box p i{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     footer .links-footer a{
@@ -323,7 +328,7 @@
     }
 
     .campo-bnf .bnf-box p{
-        font-size: 13px;
+        font-size: 15px;
         line-height: 15px;
     }
 
