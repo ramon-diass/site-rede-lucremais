@@ -163,7 +163,8 @@
     }
 
     .servicos .txt-itens p{
-        font-size: 12px;
+        font-size: 15px;
+        line-height: 16px;
     }
 
     .servicos .itens-container .img-itens img{
@@ -229,6 +230,10 @@
 
     header{
         padding: 20px 0;
+    }
+
+    header .logo img{
+        width: 180px;
     }
 
     header .menu-desktop, header .btn-contato{
