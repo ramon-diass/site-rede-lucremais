@@ -1,10 +1,18 @@
 @media screen and (max-width: 1200px) {
+    header{
+        padding: 18px 0;
+    }
+
     header .logo img{
         width: 130px;
     }
 
+    header .menu-desktop nav ul li{
+        margin: 0 30px;
+    }
+
     header .menu-desktop nav ul li a{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     header .btn-contato button{
@@ -35,20 +43,20 @@
     }
 
     .servicos h2{
-        font-size: 2em;
+        font-size: 2.6em;
         margin-bottom: 35px;
     }
 
     .servicos .txt-itens h3{
-        font-size: 2em;
+        font-size: 2.4em;
     }
 
     .servicos .txt-itens p{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .servicos .txt-itens p i{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .servicos .itens-container .img-itens img{
@@ -89,7 +97,7 @@
     }
 
     .campo-bnf .bnf-box p{
-        font-size: 14px;
+        font-size: 15px;
         line-height: 18px;
     }
 
@@ -127,11 +135,11 @@
 
     header .menu-desktop nav ul li{
         display: inline-block;
-        margin: 0 25px;
+        margin: 0 20px;
     }
 
     header .menu-desktop nav ul li a{
-        font-size: 13px;
+        font-size: 16px;
     }
 
     header .btn-contato button{
@@ -234,7 +242,7 @@
     }
 
     header{
-        padding: 20px 0;
+        padding: 10px 0;
     }
 
     header .logo img{
@@ -263,23 +271,23 @@
     }
 
     .servicos h2{
-        font-size: 2.3em;        
+        font-size: 2.4em;        
         margin-bottom: 25px;
     }
 
     .servicos .txt-itens h3{
-        font-size: 1.6em;
+        font-size: 1.8em;
         line-height: 25px;
     }
 
     .servicos .txt-itens p{
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
         margin-bottom: 10px;
     }
 
     .servicos .txt-itens p i{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .servicos .itens-container .img-itens img{
@@ -321,7 +329,7 @@
     }
 
     .campo-bnf .bnf-box h4{
-        font-size: 1.3em;
+        font-size: 1.4em;
         line-height: 25px;
         margin-bottom: 10px;
         font-weight: 300;
