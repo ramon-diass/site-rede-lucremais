@@ -1,0 +1,487 @@
+@media screen and (max-width: 1200px) {
+    header .logo img{
+        width: 130px;
+    }
+
+    header .menu-desktop nav ul li a{
+        font-size: 16px;
+    }
+
+    header .btn-contato button{
+        width: 150px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .hero-site .txt-hero h1{
+        font-size: 3em;
+        line-height: 50px;
+        font-weight: 200;
+    }
+
+    .hero-site .txt-hero p{
+        font-size: 14px;
+        margin: 25px 0;
+    }
+
+    .hero-site button{
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .servicos{
+        padding: 20px 0;
+    }
+
+    .servicos h2{
+        font-size: 2em;
+        margin-bottom: 35px;
+    }
+
+    .servicos .txt-itens h3{
+        font-size: 2em;
+    }
+
+    .servicos .txt-itens p{
+        font-size: 14px;
+    }
+
+    .servicos .txt-itens p i{
+        font-size: 12px;
+    }
+
+    .servicos .itens-container .img-itens img{
+        max-width: 400px;
+    }
+
+    .parallax{
+        height: 320px;
+    }
+
+    .parallax h3{
+        font-size: 2em;
+        line-height: 45px;
+    }
+
+    .parallax button{
+        font-size: 14px;
+        margin-top: 30px;
+        width: 160px;
+        height: 50px;
+    }
+
+    .beneficios{
+        padding: 50px 0;
+    }
+
+    .beneficios .txt-beneficios h3{
+        font-size: 3.5em;
+        font-weight: 400;
+    }
+
+    .campo-bnf .bnf-box{
+        padding: 15px;
+    }
+
+    .campo-bnf .bnf-box img{
+        max-width: 80px;
+    }
+
+    .campo-bnf .bnf-box p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .campo-bnf .bnf-box p i{
+        font-size: 12px;
+    }
+
+    footer .btn-footer button{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    footer .links-footer a{
+        font-size: 14px;
+    }
+
+    footer .direitos{
+        border-top: 2px solid #fff;
+    }
+
+    footer .direitos p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header .logo img{
+        width: 110px;
+    }
+
+    header .menu-desktop nav ul li{
+        display: inline-block;
+        margin: 0 25px;
+    }
+
+    header .menu-desktop nav ul li a{
+        font-size: 13px;
+    }
+
+    header .btn-contato button{
+        width: 130px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .hero-site .txt-hero h1{
+        font-size: 2.5em;
+        line-height: 40px;
+        font-weight: 200;
+    }
+
+    .hero-site .txt-hero p{
+        font-size: 12px;
+        margin: 20px 0;
+    }
+
+    .hero-site button{
+        width: 110px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .servicos h2{
+        margin-bottom: 30px;
+    }
+
+    .servicos .txt-itens h3{
+        font-size: 1.8em;
+        line-height: 30px;
+    }
+
+    .servicos .txt-itens p{
+        font-size: 12px;
+    }
+
+    .servicos .itens-container .img-itens img{
+        max-width: 350px;
+    }
+
+    .parallax{
+        height: 250px;
+    }
+
+    .parallax h3{
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .parallax button{
+        font-size: 12px;
+        margin-top: 30px;
+        width: 120px;
+        height: 35px;
+    }
+
+    .beneficios .txt-beneficios h3{
+        font-size: 3em;
+        font-weight: 400;
+    }
+
+    .campo-bnf .bnf-box{
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .campo-bnf .bnf-box img{
+        max-width: 60px;
+    }
+
+    .campo-bnf .bnf-box p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .campo-bnf .bnf-box p i{
+        font-size: 10px;
+    }
+
+    footer .links-footer a{
+        font-size: 12px;
+    }
+
+    footer .direitos{
+        border-top: 2px solid #fff;
+    }
+
+    footer .direitos p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    #valores{
+        display: none;
+    }
+
+    header{
+        padding: 20px 0;
+    }
+
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+
+    .hero-site .txt-hero h1{
+        font-size: 2em;
+        line-height: 30px;
+    }
+    
+    .hero-site .txt-hero p{
+        font-size: 12px;
+    }
+    
+    .hero-site button{
+        font-size: 12px;
+    }
+
+    .servicos h2{
+        font-size: 2.3em;        
+        margin-bottom: 25px;
+    }
+
+    .servicos .txt-itens h3{
+        font-size: 1.6em;
+        line-height: 25px;
+    }
+
+    .servicos .txt-itens p{
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    .servicos .txt-itens p i{
+        font-size: 10px;
+    }
+
+    .servicos .itens-container .img-itens img{
+        max-width: 280px;
+    }
+
+    .parallax{
+        height: 200px;
+    }
+
+    .parallax h3{
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+
+    .parallax button{
+        font-size: 14px;
+        margin-top: 20px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .beneficios{
+        padding: 50px 0;
+    }
+
+    .beneficios .txt-beneficios h3{
+        font-size: 2.5em;
+        line-height: 40px;
+    }
+
+    .campo-bnf .bnf-box{
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .campo-bnf .bnf-box img{
+        max-width: 50px;
+    }
+
+    .campo-bnf .bnf-box h4{
+        font-size: 1.3em;
+        line-height: 25px;
+        margin-bottom: 10px;
+        font-weight: 300;
+    }
+
+    .campo-bnf .bnf-box p{
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .campo-bnf .bnf-box p i{
+        font-size: 10px;
+    }
+
+    footer .btn-footer button{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    footer .links-footer{
+        margin: 20px 0 20px 20px;
+    }
+
+    footer .links-footer a{
+        font-size: 12px;
+    }
+
+    footer .direitos{
+        border-top: 2px solid #fff;
+    }
+
+    footer .direitos p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header{
+        padding: 30px 0;
+    }
+
+    header .logo img{
+        width: 400px;
+    }
+
+    .hero-site .txt-hero h1{
+        font-size: 3em;
+        line-height: 45px;
+    }
+    
+    .hero-site .txt-hero p{
+        font-size: 16px;
+    }
+    
+    .hero-site .txt-hero p span{
+        display: inline;
+    }
+    
+    .hero-site button{
+        font-size: 18px;
+    }
+        
+    /* Responsivo seção vantagens */
+    .servicos .itens-container{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .servicos h2{
+        font-size: 2.5em;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+
+    .servicos .txt-itens{
+        width: 100%;
+    }
+
+    .servicos .txt-itens h3{
+        font-size: 2em;
+        line-height: 40px;
+    }
+    
+    .servicos .txt-itens p{
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 12px;
+        
+    }
+    
+    .servicos .itens-container .img-itens img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .servicos .itens-container .item-1{
+        order: 1;
+    }
+
+    .servicos .itens-container .item-2{
+        order: 0;
+    }
+
+    /* Responsivo do parallax */
+    .parallax h3{
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .parallax button{
+        margin-top: 20px;
+        font-size: 14px;
+        width: 150px;
+        height: 40px;
+    }
+
+    /* Responsivo da seção como funciona */
+    .beneficios{
+        padding: 40px 0;
+    }
+
+    .txt-beneficios, .campo-bnf{
+        display: block;
+        width: 100%;
+    }
+
+    .beneficios .txt-beneficios{
+        position: static;
+    }
+
+    .beneficios .txt-beneficios h3{
+        font-size: 3em;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .campo-bnf .bnf-box{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .campo-bnf .bnf-box img{
+        margin-top: 10px;
+    }
+
+    .campo-bnf .bnf-box h4{
+        font-size: 1.8em;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+
+    .campo-bnf .bnf-box p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .campo-bnf .bnf-box p i{
+        font-size: 14px;
+    }
+
+    /* Responsivo do rodapé */
+    footer .links-footer a{
+        display: block;
+        margin: 15px 0;
+    }
+
+    footer .direitos p{
+        font-size: 16px;
+    }
+}
