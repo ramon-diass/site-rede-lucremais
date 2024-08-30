@@ -16,25 +16,26 @@ body{
     padding: 0 4%;
 }
 
-header .btn-contato button, .hero-site button, .parallax button{
+header .btn-contato button, .banner-inicio button{
     font-size: 18px;
-    color: #fff;
+    color: #000;
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
     text-transform: initial;
     cursor: pointer;
     transition: .5s;
 }
 
-header .btn-contato button:hover, .hero-site button:hover, .parallax button:hover{
-    background-color: #fff;
-    color: #000;
+header .btn-contato button:hover, .banner-inicio button:hover{
+    background-color: #000;
+    color: #fff;
 }
 
 /* Estilo do cabeçalho */
 header{
     width: 100%;
-    padding: 10px 0;
+    padding: 30px 0;
     position: fixed; /* Essa linha e as duas linhas abixo são para deixar o cabeçalho transparente e fixo no topo */
     top: 0;
     left: 0;
@@ -66,8 +67,9 @@ header .menu-desktop nav ul li{
 }
 
 header .menu-desktop nav ul li a{
+    font-size: 18px;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 20px;
     text-transform: capitalize;
     display: inline-block; /* Esse display serve para habilitar o scale abaixo */
@@ -80,17 +82,16 @@ header .menu-desktop nav ul li a:hover{
 }
 
 header .btn-contato button{
-    width: 180px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: 17px;
 }
 
 /* Estilo do menu quando não está no topo */
 header.rolar{
     background-color: #fff;
-    /* padding: 20px 0; */
     box-shadow: 0 0 8px #00000066;
+    padding: 20px 0;
 }
 
 header.rolar .menu-desktop nav ul li a{
@@ -127,7 +128,7 @@ header .btn-menu-mob{
 }
 
 header .btn-menu-mob div{
-    background-color: #fff;
+    background-color: #000;
     height: 3px;
     margin: 10px 0;
     transition: .2s;
@@ -205,38 +206,48 @@ body.parar{
 
 
 /* Estilo banner inicial */
-.hero-site{
-    height: 95vh;
-    background-color: #ff7d27a1;
+.banner-inicio{
+    padding-top: 100px;
+    background-color: #fff;
+    height: 700px;
 }
 
-.hero-site .interface{
+.banner-inicio .interface{
     display: flex;
     align-items: center;
     height: 100%;
+    background-image: url(../imagens/capa-lucremais.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.hero-site .txt-hero h1{
-    font-size: 4em;
+.banner-inicio .txt-banner{
+    padding-left: 4%;
+}
+
+.banner-inicio .txt-banner h1{
+    font-size: 4.4em;
     line-height: 70px;
     font-weight: 200;
 }
 
-.hero-site .txt-hero h1 span{
+.banner-inicio .txt-banner h1 span{
     display: flex;
     font-weight: 800;
 }
 
-.hero-site .txt-hero p{
+.banner-inicio .txt-banner p{
+    font-size: 20px;
     font-weight: 300;
     margin: 30px 0;
 }
 
-.hero-site .txt-hero p span{
+.banner-inicio .txt-banner p span{
     display: flex;
 }
 
-.hero-site button{
+.banner-inicio button{
     width: 220px;
     height: 60px;
     font-size: 20px;
@@ -393,9 +404,21 @@ body.parar{
 }
 
 .parallax button{
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-transform: initial;
+    cursor: pointer;
+    transition: .5s;
     margin-top: 50px;
     width: 220px;
     height: 60px;
+}
+
+.parallax button:hover{
+    background-color: #fff;
+    color: #000;
 }
 
 /* Estilo da seção nossos benefícios */
