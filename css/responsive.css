@@ -21,18 +21,26 @@
         font-size: 14px;
     }
 
-    .hero-site .txt-hero h1{
+    header.rolar{
+        padding: 10px 0;
+    }
+
+    .banner-inicio{
+        padding-top: 20px;
+    }
+
+    .banner-inicio .txt-banner h1{
         font-size: 3em;
         line-height: 50px;
         font-weight: 200;
     }
 
-    .hero-site .txt-hero p{
+    .banner-inicio .txt-banner p{
         font-size: 14px;
         margin: 25px 0;
     }
 
-    .hero-site button{
+    .banner-inicio button{
         width: 140px;
         height: 40px;
         font-size: 14px;
@@ -148,18 +156,24 @@
         font-size: 12px;
     }
 
-    .hero-site .txt-hero h1{
+    .banner-inicio{
+        padding-top: 20px;
+        background-color: #fff;
+        height: 600px;
+    }
+
+    .banner-inicio .txt-banner h1{
         font-size: 2.5em;
         line-height: 40px;
         font-weight: 200;
     }
 
-    .hero-site .txt-hero p{
+    .banner-inicio .txt-banner p{
         font-size: 16px;
         margin: 20px 0;
     }
 
-    .hero-site button{
+    .banner-inicio button{
         width: 130px;
         height: 40px;
         font-size: 14px;
@@ -257,16 +271,21 @@
         display: block;
     }
 
-    .hero-site .txt-hero h1{
+    .banner-inicio{
+        padding-top: 30px;
+        height: 450px;
+    }
+
+    .banner-inicio .txt-banner h1{
         font-size: 2em;
         line-height: 30px;
     }
     
-    .hero-site .txt-hero p{
+    .banner-inicio .txt-banner p{
         font-size: 12px;
     }
     
-    .hero-site button{
+    .banner-inicio button{
         font-size: 12px;
     }
 
@@ -376,20 +395,20 @@
         width: 400px;
     }
 
-    .hero-site .txt-hero h1{
+    .banner-inicio .txt-banner h1{
         font-size: 3em;
         line-height: 45px;
     }
     
-    .hero-site .txt-hero p{
+    .banner-inicio .txt-banner p{
         font-size: 16px;
     }
     
-    .hero-site .txt-hero p span{
+    .banner-inicio .txt-banner p span{
         display: inline;
     }
     
-    .hero-site button{
+    .banner-inicio button{
         font-size: 18px;
     }
         
