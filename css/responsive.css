@@ -267,6 +267,10 @@
         display: none;
     }
 
+    header .menu-mobile nav a{
+        padding: 8px 0;
+    }
+
     header .btn-menu-mob{
         display: block;
     }
@@ -393,6 +397,10 @@
 
     header .logo img{
         width: 400px;
+    }
+
+    header .menu-mobile nav a{
+        padding: 20px 0;
     }
 
     .banner-inicio .txt-banner h1{
