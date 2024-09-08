@@ -499,6 +499,11 @@ body.parar{
     color: #FF7F27;
 }
 
+/* Estilo da seção dos parceiros */
+.img-parceiros{
+    width: 100%;
+}
+
 /* Estilo do rodapé */
 footer{
     background-color: #FF7F27;
