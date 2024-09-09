@@ -321,7 +321,8 @@ body.parar{
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 50px;
-    font-weight: 300;
+    font-weight: 600;
+    color: #FF7F27;
 }
 
 .servicos .itens-container{
@@ -498,8 +499,21 @@ body.parar{
 }
 
 /* Estilo da seção dos parceiros */
+.parceiros{
+    background-color: #fff;
+}
+
+.txt-parceiros{
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    color: #FF7F27;
+    padding: 30px;
+}
+
 .img-parceiros{
     width: 100%;
+    margin: 30px 0;
 }
 
 /* Estilo do rodapé */
@@ -528,18 +542,9 @@ footer .btn-footer button:hover{
     color: #000;
 }
 
-footer .links-footer{
-    margin: 30px 0 30px 20px;
-}
-
-footer .links-footer a{
-    color: #fff;
-    margin: 0 15px;
-    font-size: 18px;
-}
-
 footer .direitos{
     border-top: 3px solid #fff;
+    margin-top: 30px;
 }
 
 footer .direitos p{
