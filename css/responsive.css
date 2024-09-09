@@ -404,9 +404,28 @@
         padding: 20px 0;
     }
 
+    .banner-inicio{
+        height: 800px;
+    }
+
+    .banner-inicio .interface{
+        background-image: url(../imagens/capa-mobile.png);
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 40px;
+    }
+
+    .banner-inicio .txt-banner{
+        text-align: center;
+    }
+
     .banner-inicio .txt-banner h1{
         font-size: 3em;
         line-height: 45px;
+    }
+
+    .banner-inicio .txt-banner h1 span{
+        justify-content: center;
     }
     
     .banner-inicio .txt-banner p{
@@ -414,11 +433,12 @@
     }
     
     .banner-inicio .txt-banner p span{
-        display: inline;
+        display: block;
     }
     
     .banner-inicio button{
         font-size: 18px;
+        width: 170px;
     }
         
     /* Responsivo seção vantagens */
