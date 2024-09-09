@@ -438,16 +438,12 @@ body.parar{
 
 .txt-beneficios{
     width: 40%;
+    height: 740px;
+    padding-top: 25%;
 }
 
 .campo-bnf{
     width: 60%;
-}
-
-.beneficios .txt-beneficios{ /* Faz com que o como funciona acompanhe a tela */
-    position: sticky;
-    top: 40%; /* Posição onde o como funciona vai acompanhar a tela, quanto menor mais em cima fica */
-    padding-bottom: 32px;  /* Para ajustar o final onde o como funciona para, para ajustar com o último box */
 }
 
 .beneficios .txt-beneficios h3{
