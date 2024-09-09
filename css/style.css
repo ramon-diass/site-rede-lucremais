@@ -245,6 +245,8 @@ body.parar{
 
 .banner-inicio .txt-banner p span{
     display: flex;
+    color: #FF7F27;
+    font-weight: 700;
 }
 
 .banner-inicio button{
