@@ -116,6 +116,10 @@
         font-size: 12px;
     }
 
+    .img-parceiros{
+        width: 85%;
+    }
+
     footer .btn-footer button{
         width: 50px;
         height: 50px;
@@ -128,6 +132,20 @@
 
     footer .direitos p{
         font-size: 14px;
+    }
+
+    .btn-whats button{
+        margin-right: 5px;
+        width: 80px;
+        height: 80px; 
+    }
+
+    .btn-whats button a{
+        font-size: 10px;
+    }
+
+    .btn-whats button i{
+        font-size: 25px;    
     }
 }
 
@@ -238,12 +256,25 @@
         font-size: 12px;
     }
 
+    .img-parceiros{
+        width: 80%;
+    }
+
     footer .direitos{
         border-top: 2px solid #fff;
     }
 
     footer .direitos p{
         font-size: 12px;
+    }
+
+    .btn-whats button{
+        width: 70px;
+        height: 70px; 
+    }
+
+    .btn-whats button a{
+        font-size: 8px;
     }
 }
 
@@ -339,7 +370,8 @@
     }
 
     .beneficios .txt-beneficios h3{
-        line-height: 40px;
+        font-size: 2.8em;
+        line-height: 45px;
     }
 
     .campo-bnf .bnf-box{
@@ -379,6 +411,21 @@
 
     footer .direitos p{
         font-size: 10px;
+    }
+
+    .btn-whats button{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 3px;
+        margin-right: 3px; 
+    }
+
+    .btn-whats button a{
+        font-size: 7px;
+    }
+
+    .btn-whats button i{
+        font-size: 20px;    
     }
 }
 
