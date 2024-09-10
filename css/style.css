@@ -487,6 +487,7 @@ body.parar{
 /* Estilo da seção dos parceiros */
 .parceiros{
     background-color: #fff;
+    text-align: center;
 }
 
 .txt-parceiros{
@@ -505,7 +506,6 @@ body.parar{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-/* Estilo do rodapé */
 footer{
     background-color: #FF7F27;
     text-align: center;
