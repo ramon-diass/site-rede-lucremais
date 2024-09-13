@@ -277,27 +277,41 @@ body.parar{
 .empresa .apresentacao{
     display: flex;
     justify-content: space-around;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .empresa .pergunta{
     width: 50%;
-    text-align: center;
+    /* text-align: center; */
     align-self: center;
 }
 
 .empresa .pergunta h2{
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 3em;
     word-spacing: 10px;
+    color: #fff;
+    font-size: 3em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FF7F27; 
 }
 
-.empresa .pergunta img{
+.empresa .pergunta .img-pergunta{
+    display: flex;
+    justify-content: center;
+}
+
+.empresa .img-pergunta img{
     width: 300px;
+}
+
+.empresa .img-pergunta h2{
+    font-size: 60px;
 }
 
 .empresa .resposta{
     width: 50%;
+    align-self: center;
 }
 
 .empresa .apresentacao p i, .empresa .mv-box p i{
