@@ -256,59 +256,91 @@ body.parar{
 }
 
 /* Estilo da seção empresa */
-.empresa{
-    padding: 40px 0;
+.empresa span{
+    font-weight: bold;
 }
 
-.empresa .txt-empresa{
+.empresa{
+    background-image: linear-gradient(#FFF, #ff7d27bd, #FF7F27);
+    height: 100%;
+    padding-top: 80px;
+}
+
+.empresa h1{
+    color: #FF7F27;
     text-align: center;
     font-size: 2.5em;
-    margin-bottom: 30px;
-}
-
-.empresa .txt-empresa h3{
-    font-weight: 300;
-}
-
-.empresa .txt-empresa h3 span{
-    color: #FF7F27;
     font-weight: 600;
+    padding-top: 30px;
 }
 
-.empresa .txt-box h2{
-    color: #fff;
-    font-size: 2em;
-    padding-top: 20px
-}
-
-.empresa .instru-box{
-    background-image: url(../imagens/fundo.png);
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.empresa .instru-box img{
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.611);
-}
-
-.empresa .info-box{
+.empresa .apresentacao{
     display: flex;
     justify-content: space-around;
-    height: 100%;
+    padding: 100px 0;
 }
 
-.empresa .caixa-box{
-    background-color: #fff;
+.empresa .pergunta{
+    width: 50%;
     text-align: center;
-    padding: 30px;
-    margin: 30px 0;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px #00000090;
+    align-self: center;
 }
 
-.empresa .info-box p span{
+.empresa .pergunta h2{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    word-spacing: 10px;
+}
+
+.empresa .pergunta img{
+    width: 300px;
+}
+
+.empresa .resposta{
+    width: 50%;
+}
+
+.empresa .apresentacao p i, .empresa .mv-box p i{
+    font-size: 16px;
+}
+
+.empresa .resposta p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.empresa .missao-visao{
     display: flex;
+    justify-content: space-between;
+    padding: 30px 0 100px 0;
+}
+
+.empresa .mv-box{
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.empresa .mv-box i{
+    font-size: 40px;
+    color: #FF7F27;
+}
+
+.empresa .mv-box h4{
+    padding: 10px 0 30px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.empresa .mv-box p{
+    margin-bottom: 8px;
+    font-size: 18px;
 }
 
 /* Estilo dos serviços */
@@ -370,7 +402,7 @@ body.parar{
     position: relative; /* Esse position serve para habilitar o parallax que vai ser editado abaixo */
     color: #fff;
     text-align: center;
-    background-color: #ff7d27b9;
+    background-color: #ff7d27d3;
 }
 
 .parallax .interface{
@@ -488,6 +520,7 @@ body.parar{
 .parceiros{
     background-color: #fff;
     text-align: center;
+    padding: 50px 0 100px 0;
 }
 
 .txt-parceiros{
@@ -506,11 +539,12 @@ body.parar{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/* Estilo do rodapé */
 footer{
     background-color: #FF7F27;
     text-align: center;
     color: #fff;
-    padding: 30px 0;
+    padding: 60px 0;
 }
 
 footer .btn-footer button{
@@ -540,6 +574,7 @@ footer .direitos p{
     padding: 20px 0 0 17px;
 }
 
+/* Estilo do botão Whatsapp */
 .btn-whats button{
     position: fixed;
     right: 0;
