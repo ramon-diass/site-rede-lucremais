@@ -279,10 +279,6 @@
 }
 
 @media screen and (max-width: 870px) {
-    #valores{
-        display: none;
-    }
-
     header{
         padding: 10px 0;
     }
@@ -580,8 +576,6 @@
     .campo-bnf .bnf-box p i{
         font-size: 14px;
     }
-
-    /* Responsivo do rodapé */
     
     footer .direitos p{
         font-size: 16px;
