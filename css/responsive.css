@@ -485,10 +485,11 @@
 
     .txt-beneficios{
         height: 525px;
+        padding-top: 40%;
     }
 
     .beneficios .txt-beneficios h3{
-        font-size: 2.8em;
+        font-size: 2.5em;
         line-height: 45px;
     }
 
@@ -502,19 +503,33 @@
     }
 
     .campo-bnf .bnf-box h4{
-        font-size: 1.4em;
+        font-size: 1.3em;
         line-height: 25px;
         margin-bottom: 10px;
         font-weight: 300;
     }
 
     .campo-bnf .bnf-box p{
-        font-size: 15px;
+        font-size: 14px;
         line-height: 15px;
     }
 
     .campo-bnf .bnf-box p i{
         font-size: 10px;
+    }
+
+    .img-parceiros{
+        display: none;
+    }
+
+    .img-parceiros-mob{
+        display: block;
+        width: 80%;
+
+        margin: 25px auto 25px auto;
+        border: 5px solid #FF7F27;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
     footer .btn-footer button{
