@@ -311,6 +311,7 @@ body.parar{
 .empresa .resposta{
     width: 50%;
     align-self: center;
+    text-align: justify;
 }
 
 .empresa .apresentacao p i, .empresa .mv-box p i{
@@ -393,6 +394,7 @@ body.parar{
 .servicos .txt-itens p{
     font-size: 18px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 .servicos .txt-itens p i{
@@ -517,6 +519,7 @@ body.parar{
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 5px;
+    text-align: justify;
 }
 
 .campo-bnf .bnf-box p span{
