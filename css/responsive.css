@@ -660,25 +660,25 @@
         padding: 40px 0;
     }
 
-    .txt-beneficios{
-        padding-top: 0;
-        padding-bottom: 20px;
-        height: 100%;
-    }
-
-    .txt-beneficios, .campo-bnf{
-        display: block;
-        width: 100%;
+    .beneficios .interface{
+        display: flex;
+        flex-direction: column;
     }
 
     .beneficios .txt-beneficios{
-        position: static;
+        padding-top: 0;
+        padding-bottom: 20px;
+        width: 100%;
     }
 
     .beneficios .txt-beneficios h3{
         font-size: 2.5em;
         line-height: 50px;
         text-align: center;
+    }
+
+    .beneficios .campo-bnf{
+        width: 100%;
     }
 
     .campo-bnf .bnf-box{
@@ -688,6 +688,7 @@
 
     .campo-bnf .bnf-box img{
         margin-top: 10px;
+        max-width: 80px;
     }
 
     .campo-bnf .bnf-box h4{
@@ -697,7 +698,7 @@
     }
 
     .campo-bnf .bnf-box p{
-        font-size: 16px;
+        font-size: 15px;
         line-height: 20px;
         margin-bottom: 10px;
         text-align: left;
@@ -705,6 +706,10 @@
 
     .campo-bnf .bnf-box p i{
         font-size: 14px;
+    }
+
+    .img-parceiros-mob{
+        width: 100%;
     }
     
     footer .direitos p{
