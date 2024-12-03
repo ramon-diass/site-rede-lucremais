@@ -470,12 +470,10 @@ body.parar{
 .beneficios .txt-beneficios{
     width: 40%;
     align-content: center;
-    border: 1px solid black;
 }
 
 .beneficios .campo-bnf{
     width: 60%;
-    border: 1px solid red;
 }
 
 .beneficios .txt-beneficios h3{
