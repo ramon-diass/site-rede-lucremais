@@ -540,18 +540,18 @@
     }
 
     .btn-whats button{
-        width: 60px;
-        height: 60px;
-        margin-bottom: 3px;
-        margin-right: 3px; 
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+        margin-right: 5px; 
     }
 
     .btn-whats button a{
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .btn-whats button i{
-        font-size: 20px;    
+        font-size: 28px;    
     }
 }
 
