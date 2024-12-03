@@ -462,19 +462,19 @@ body.parar{
     padding: 80px 0;
 }
 
-.txt-beneficios, .campo-bnf{
-    display: inline-block;
-    margin-right: -4px; /* Esse -4px é algum bug do inline-block que adiciona 4px nas laterais, sem ele os blocos não ficam lado a lado */
-    vertical-align: top;
+.beneficios .interface{
+    display: flex;
+    height: 100%;
 }
 
-.txt-beneficios{
+
+
+.beneficios .txt-beneficios{
     width: 40%;
-    height: 740px;
-    padding-top: 25%;
+    margin: auto 0;
 }
 
-.campo-bnf{
+.beneficios .campo-bnf{
     width: 60%;
 }
 
