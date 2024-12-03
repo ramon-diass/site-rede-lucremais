@@ -350,6 +350,10 @@
         padding: 10px 0;
     }
 
+    header.rolar{
+        padding: 10px 0 0 0;
+    }
+
     header .logo img{
         width: 180px;
     }
@@ -369,20 +373,50 @@
 
     .banner-inicio{
         padding-top: 30px;
-        height: 450px;
+        height: 400px;
     }
 
     .banner-inicio .txt-banner h1{
-        font-size: 2em;
-        line-height: 30px;
+        font-size: 3em;
+        line-height: 50px;
     }
     
     .banner-inicio .txt-banner p{
-        font-size: 12px;
+        font-size: 14px;
     }
     
     .banner-inicio button{
-        font-size: 12px;
+        font-size: 13px;
+    }
+
+    .empresa .apresentacao{
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .empresa .pergunta{
+        width: 100%;
+    }
+
+    .empresa .pergunta h2{
+        text-align: center;
+    }
+
+    .empresa .resposta{
+        width: 400px;
+        padding-top: 30px;
+    }
+
+    .empresa .apresentacao p i, .empresa .mv-box p i{
+        font-size: 14px;
+    }
+
+    .empresa .resposta p{
+        font-size: 16px;
+    }
+
+    .empresa .mv-box h4{
+        font-size: 20px;
     }
 
     .servicos h2{       
