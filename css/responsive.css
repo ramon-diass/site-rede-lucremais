@@ -72,6 +72,10 @@
         font-size: 16px;
     }
 
+    .empresa .mv-box{
+        width: 28%;
+    }
+
     .empresa .mv-box h4{
         font-size: 20px;
     }
@@ -242,6 +246,10 @@
 
     .empresa .resposta p{
         font-size: 15px;
+    }
+
+    .empresa .mv-box{
+        width: 28%;
     }
 
     .empresa .mv-box h4{
