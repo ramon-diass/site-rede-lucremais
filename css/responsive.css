@@ -726,5 +726,14 @@
         .banner-inicio{
             height: 800px;
         }
+
+        .empresa .resposta{
+            padding: 30px 4%;
+        }
+
+        .empresa .mv-box{
+            width: 330px;
+            border: 1px solid black;
+        }
     }
 }
