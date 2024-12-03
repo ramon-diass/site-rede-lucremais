@@ -467,15 +467,15 @@ body.parar{
     height: 100%;
 }
 
-
-
 .beneficios .txt-beneficios{
     width: 40%;
-    margin: auto 0;
+    align-content: center;
+    border: 1px solid black;
 }
 
 .beneficios .campo-bnf{
     width: 60%;
+    border: 1px solid red;
 }
 
 .beneficios .txt-beneficios h3{
