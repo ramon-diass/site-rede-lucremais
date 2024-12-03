@@ -123,10 +123,6 @@
         padding: 50px 0;
     }
 
-    .txt-beneficios{
-        height: 690px;
-    }
-
     .beneficios .txt-beneficios h3{
         font-size: 3.5em;
         font-weight: 400;
@@ -290,10 +286,6 @@
         margin-top: 30px;
         width: 120px;
         height: 35px;
-    }
-
-    .txt-beneficios{
-        height: 610px;
     }
 
     .beneficios .txt-beneficios h3{
@@ -481,11 +473,6 @@
 
     .beneficios{
         padding: 50px 0;
-    }
-
-    .txt-beneficios{
-        height: 525px;
-        padding-top: 40%;
     }
 
     .beneficios .txt-beneficios h3{
