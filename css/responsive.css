@@ -25,18 +25,19 @@
         padding: 10px 0;
     }
 
+    /* Seção banner-inicio */
     .banner-inicio{
         padding-top: 20px;
     }
 
     .banner-inicio .txt-banner h1{
-        font-size: 3em;
-        line-height: 50px;
+        font-size: 4em;
+        line-height: 60px;
         font-weight: 200;
     }
 
     .banner-inicio .txt-banner p{
-        font-size: 14px;
+        font-size: 16px;
         margin: 25px 0;
     }
 
@@ -46,6 +47,36 @@
         font-size: 14px;
     }
 
+    /* Estilo da seção empresa */
+    .empresa{
+        padding-top: 0px;
+    }
+
+    .empresa h1{
+        padding-top: 0px;
+    }
+
+    .empresa .pergunta h2{
+        font-size: 2.5em; 
+    }
+
+    .empresa .img-pergunta img{
+        width: 320px;
+    }
+
+    .empresa .apresentacao p i, .empresa .mv-box p i{
+        font-size: 14px;
+    }
+
+    .empresa .resposta p{
+        font-size: 16px;
+    }
+
+    .empresa .mv-box h4{
+        font-size: 20px;
+    }
+
+    /* Seção servicos */
     .servicos{
         padding: 20px 0;
     }
@@ -70,6 +101,7 @@
         max-width: 400px;
     }
 
+    /* Seção parallax */
     .parallax{
         height: 320px;
     }
@@ -86,6 +118,7 @@
         height: 50px;
     }
 
+    /* Seção beneficios */
     .beneficios{
         padding: 50px 0;
     }
@@ -116,10 +149,12 @@
         font-size: 12px;
     }
 
+    /* Seção parceiros */
     .img-parceiros{
         width: 85%;
     }
 
+    /* Footer */
     footer .btn-footer button{
         width: 50px;
         height: 50px;
@@ -134,6 +169,7 @@
         font-size: 14px;
     }
 
+    /* Seção btn-whats */
     .btn-whats button{
         margin-right: 5px;
         width: 80px;
@@ -196,18 +232,44 @@
         font-size: 14px;
     }
 
+    .empresa h1{
+        font-size: 2.5em;
+    }
+
+    .empresa .img-pergunta img{
+        width: 300px;
+    }
+
+    .empresa .apresentacao p i, .empresa .mv-box p i{
+        font-size: 13px;
+    }
+
+    .empresa .resposta p{
+        font-size: 15px;
+    }
+
+    .empresa .mv-box h4{
+        font-size: 18px;
+    }
+
+    .empresa .mv-box p{
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+
     .servicos h2{
         margin-bottom: 30px;
+        font-size: 2.5em;
     }
 
     .servicos .txt-itens h3{
-        font-size: 2em;
+        font-size: 1.8em;
         line-height: 30px;
     }
 
     .servicos .txt-itens p{
-        font-size: 15px;
-        line-height: 16px;
+        font-size: 13px;
+        line-height: 15px;
     }
 
     .servicos .itens-container .img-itens img{
@@ -236,6 +298,7 @@
 
     .beneficios .txt-beneficios h3{
         font-weight: 400;
+        font-size: 3em;
     }
 
     .campo-bnf .bnf-box{
@@ -248,12 +311,16 @@
     }
 
     .campo-bnf .bnf-box p{
-        font-size: 14px;
+        font-size: 13px;
         line-height: 15px;
     }
 
     .campo-bnf .bnf-box p i{
         font-size: 12px;
+    }
+
+    .txt-parceiros{
+        font-size: 2.5em;
     }
 
     .img-parceiros{
