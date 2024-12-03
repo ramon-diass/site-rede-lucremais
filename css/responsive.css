@@ -384,7 +384,6 @@
     .empresa .apresentacao{
         flex-direction: column;
         padding: 40px 0;
-        text-align: justify;
     }
 
     .empresa .pergunta{
