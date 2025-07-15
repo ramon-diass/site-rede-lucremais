@@ -357,6 +357,15 @@ body.parar{
     font-size: 18px;
 }
 
+/* Carrossel */
+#imagem {
+    max-width: 100%;
+    max-height: 700px;
+    object-fit: contain;
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
 /* Estilo dos serviços */
 .servicos{
     padding: 60px 0;
