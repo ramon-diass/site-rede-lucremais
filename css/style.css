@@ -261,7 +261,7 @@ body.parar{
 }
 
 .empresa{
-    background-color: #FF7F27;
+    background-color: #FF7500;
     height: 100%;
     padding-top: 80px;
 }
@@ -386,10 +386,10 @@ body.parar{
     background-color: rgba(255, 255, 255, 0.2);
 }
 #anterior {
-    left: -60px;
+    left: -42px;
 }
 #proximo {
-    right: -60px;
+    right: -42px;
 }
 
 /* Estilo dos serviços */
@@ -452,7 +452,7 @@ body.parar{
     position: relative; /* Esse position serve para habilitar o parallax que vai ser editado abaixo */
     color: #fff;
     text-align: center;
-    background-color: #ff7d27d3;
+    background-color: #FF7500;
 }
 
 .parallax .interface{
@@ -594,7 +594,7 @@ body.parar{
 
 /* Estilo do rodapé */
 footer{
-    background-color: #FF7F27;
+    background-color: #FF7500;
     text-align: center;
     color: #fff;
     padding: 60px 0;
